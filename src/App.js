@@ -5,7 +5,7 @@ import Item from './components/Item';
 
 function App() {
 
-  //додала local storage
+  //+ local storage
 
   const [words, setWords] = useState(localStorage.getItem('words')? JSON.parse(localStorage.getItem('words')) : [
     {id:1, name: "Firmament", translation: "Небовид", color: "#7FFFD4"},
